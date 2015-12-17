@@ -16,12 +16,12 @@ GAME_STATE_GAMEPLAY = {
     const player = makePlayer();
     gameState.gamePlayState.entities.push(player);
 
-    gameState.gamePlayState.entities.push(makeEnemy());
-    gameState.gamePlayState.entities.push(makeEnemy());
-    gameState.gamePlayState.entities.push(makeEnemy());
-    gameState.gamePlayState.entities.push(makeEnemy());
-    gameState.gamePlayState.entities.push(makeEnemy());
-    gameState.gamePlayState.entities.push(makeEnemy());
+    // gameState.gamePlayState.entities.push(makeEnemy());
+    // gameState.gamePlayState.entities.push(makeEnemy());
+    // gameState.gamePlayState.entities.push(makeEnemy());
+    // gameState.gamePlayState.entities.push(makeEnemy());
+    // gameState.gamePlayState.entities.push(makeEnemy());
+    // gameState.gamePlayState.entities.push(makeEnemy());
   },
   draw(gameState) {
     const entities = gameState.gamePlayState.entities;
